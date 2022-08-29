@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(169, 177, 241);
+
+}
+
+
+
+.card--front{
+    background-color:blueviolet;
+    width: 200px;
+    height: 200px;
+    border-radius: 9px;
+    margin: 20px;
+   
+    
+
+}
+.card__cat--back{
+    border: 2px solid blueviolet;
+    width: 200px;
+    height: 200px;
+    border-radius: 9px;
+    margin: 20px;
+    background-image: url(images/cat.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+
+
+    
+
+}
+.card__dog--back{
+    border: 2px solid blueviolet;
+    width: 200px;
+    height: 200px;
+    border-radius: 9px;
+    background-color: white;
+    margin: 20px;
+    background-image: url(images/dog.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+
+}
+.card__mouse--back{
+    border: 2px solid blueviolet;
+    width: 200px;
+    height: 200px;
+    border-radius: 9px;
+    margin: 20px;
+    background-image: url(images/mouse.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+
+}
+
+#score{
+    text-align: center;
+    padding:4px;
+}
+
+
+
+.confetti{
+    display: flex;
+    justify-content: center;
+ }
+
+button{
+    background-color:blueviolet;
+    color: #fff;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:4px;
+    cursor: pointer;
+}
+
+#game, #end, #btn, #win, #clicked{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+h1, h4{
+    display:flex;
+    justify-content:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    ;
+}
+
+p, #win, #clicked, span{
+    display:flex;
+    justify-content:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    margin-bottom: 4px;
+}
+
+h1{
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
